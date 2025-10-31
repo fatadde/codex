@@ -822,7 +822,7 @@ body {
   .bookclass-page .columns .column form .avaliable-course {
     border: 1px solid #dadce0; 
     border-radius: 10px;
-    padding: 20px 0px 0px 30px;
+    padding: 20px 0px 20px 30px;
     margin: 20px 0px 10px 0px;
     width: 320px;
   }
