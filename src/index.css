@@ -866,8 +866,7 @@ body {
     color: white;
     width: 390px;
     height: 280px;
-    position: relative;
-    top: -85px;
+    margin-top: -90px;
   }
 
   .contact-page .title h2 {
