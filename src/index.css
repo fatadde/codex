@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   display: flex;
@@ -17,7 +15,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 10px 0px 5px 20px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .header::before {
@@ -196,30 +194,29 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 0px 0px 30px 0px;
+  padding: 40px 0px 0px 0px;
   color: white;
   width: 1351px;
-  height: 290px;
+  height: 300px;
 }
 
 .book-class .title h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: lighter;
   font-size: 90px;
-  padding-top: 80px;
-  margin: unset;
+  padding-top: 20px;
 }
 
-.bookclass-page {
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
+.bookclass-page { 
+  justify-self: center; 
+  justify-content: center;  
+  justify-items: center;  
+  align-items: center;  
   margin-top: 50px;
 }
 
-.bookclass-page .columns .column form .book-heading {
-  border: 1px solid #dadce0;
+.bookclass-page .columns .column form .book-heading { 
+  border: 1px solid #dadce0;  
   border-top: 10px solid #4caf50;
   border-radius: 10px;
   width: 550px;
@@ -356,10 +353,10 @@ body {
   padding-bottom: 20px;
 }
 
-.book-class .columns .column .submission-result {
+.submission-result {
   justify-self: center;
   border: 1px solid #dadce0;
-  margin-top: 50px;
+  margin: 50px 0px 50px 0px;
   width: 500px;
   height: 180px;
   border-radius: 10px;
@@ -367,7 +364,7 @@ body {
   padding-left: 30px;
 }
 
-.book-class .columns .column .submission-result h3 {
+.submission-result h3 {
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: unset;
@@ -733,7 +730,7 @@ body {
     font-weight: lighter;
     font-size: 70px;
     line-height: 1;
-    padding-top: 100px;
+    padding-top: 150px;
   }
 
   .bookclass-page {
