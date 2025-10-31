@@ -1,17 +1,4 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(17, 17, 17, 0.87);
-  background-color: #fcf9f9;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 body {
   margin: 0;
@@ -92,7 +79,7 @@ body {
 .navbar ul li a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #checkbox {
@@ -296,6 +283,8 @@ body {
   border-bottom: 1px solid #dadce0;
   padding-top: 50px;
   width: 250px;
+  color: black;
+  font-size: 15px;
 }
 
 .bookclass-page .columns .column form .booking input::placeholder {
@@ -312,7 +301,7 @@ body {
 .bookclass-page .columns .column form .avaliable-course {
   border: 1px solid #dadce0; 
   border-radius: 10px;
-  padding: 20px 0px 0px 30px;
+  padding: 20px 0px 30px 30px;
   margin: 20px 0px 10px 0px;
   width: 520px;
 }
@@ -322,7 +311,7 @@ body {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .bookclass-page .columns .column form .avaliable-course div {
@@ -339,6 +328,7 @@ body {
 .bookclass-page .columns .column form .avaliable-course div input {
   outline: unset;
   background-color: unset;
+  border: 2px solid green;
 }
 
 .bookclass-page .columns .column form .button {
@@ -350,6 +340,7 @@ body {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  color: white;
 }
 
 .bookclass-page .columns .column form .clear-form {
