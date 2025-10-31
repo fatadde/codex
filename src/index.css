@@ -209,16 +209,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 40px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
   color: white;
   width: 1351px;
+  height: 290px;
 }
 
 .book-class .title h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: lighter;
   font-size: 90px;
-  padding-top: 30px;
+  padding-top: 80px;
+  margin: unset;
 }
 
 .bookclass-page {
@@ -305,8 +307,6 @@ body {
 .bookclass-page .columns .column form .booking input:hover {
   border-bottom: 2px solid #4caf50;
   transition: border-bottom 0.9s ease-in-out;
-  transition-delay: 0.8s;
-  transform-style: preserve-3d;
 }
 
 .bookclass-page .columns .column form .avaliable-course {
@@ -363,6 +363,34 @@ body {
   color: #666363;
   font-size: 14px;
   padding-bottom: 20px;
+}
+
+.book-class .columns .column .submission-result {
+  justify-self: center;
+  border: 1px solid #dadce0;
+  margin-top: 50px;
+  width: 500px;
+  height: 180px;
+  border-radius: 10px;
+  border-top: 7px solid #009100;
+  padding-left: 30px;
+}
+
+.book-class .columns .column .submission-result h3 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: unset;
+  padding-top: 20px;
+}
+
+.book-class .columns .column .submission-result p {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 0px 20px 0px;
+}
+
+.book-class .columns .column .submission-result a {
+  color: #1e6c93;
 }
 
 .error {
