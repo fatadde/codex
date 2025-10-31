@@ -304,6 +304,9 @@ body {
 
 .bookclass-page .columns .column form .booking input:hover {
   border-bottom: 2px solid #4caf50;
+  transition: border-bottom 0.9s ease-in-out;
+  transition-delay: 0.8s;
+  transform-style: preserve-3d;
 }
 
 .bookclass-page .columns .column form .avaliable-course {
@@ -553,13 +556,13 @@ body {
   .icons {
     display: inline-flex;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   #close-icon {
     display: none;
     background-color: #000000;
-    padding: 20px 257px 10px 20px;
+    padding: 27px 260px 10px 20px;
     margin-left: -20px;
   }
 
@@ -864,7 +867,7 @@ body {
     width: 390px;
     height: 280px;
     position: relative;
-    top: -35px;
+    top: -55px;
   }
 
   .contact-page .title h2 {
@@ -876,7 +879,7 @@ body {
   }
 
   .contact-content {
-    padding: 10px 0px 0px 20px;
+    padding: 5px 0px 0px 20px;
   }
 
   .contact-content h2 {
