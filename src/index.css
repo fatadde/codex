@@ -15,7 +15,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 10px 0px 5px 20px;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .header::before {
@@ -592,7 +592,7 @@ body {
     color: white;
     width: 390px;
     height: 280px;
-    margin-top: -110px;
+    margin-top: px;
   }
 
   .home-page .title h2 {
