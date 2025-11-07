@@ -895,7 +895,9 @@ body {
     font-weight: lighter;
     font-size: 80px;
     margin: unset;
-    padding-top: 140px;
+    padding: 140px 0px 0px 55px;
+    width: 260px;
+    line-height: 1;
   }
   .contact-content {
     padding: 20px 0px 0px 20px;
