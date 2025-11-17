@@ -526,6 +526,9 @@ body {
 
 
 @media (max-width: 468px) {
+  body{
+    margin: none;
+  }
   .header .logo img {
     margin-left: 40px;
   }
