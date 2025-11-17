@@ -525,7 +525,7 @@ body {
 }
 
 
-@media (max-width: 575.98px ) {
+@media (max-width: 468px) {
   .header .logo img {
     margin-left: 40px;
   }
@@ -582,7 +582,7 @@ body {
     margin-left: -20px;
   }
 
-  .home-page .title {
+  .home-page .titl {
     background-color: rgb(15, 26, 32);
     background-image: url(../src/assets/simple-header-blended-small.png);
     background-size: cover;
@@ -595,7 +595,7 @@ body {
     margin-top: -100px;
   }
 
-  .home-page .title h2 {
+  .home-page .titl h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     font-size: 60px;
@@ -603,7 +603,7 @@ body {
     padding-top: 40px;
   }
 
-  .home-page .home-content {
+  .home-page .home-conten {
     padding: 30px 0px 0px 0px;
     justify-content: center;
     justify-items: center;
