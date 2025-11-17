@@ -585,7 +585,7 @@ body {
     margin-left: -20px;
   }
 
-  .home-page .titl {
+  .home-pag .titl {
     background-color: rgb(15, 26, 32);
     background-image: url(../src/assets/simple-header-blended-small.png);
     background-size: cover;
@@ -614,13 +614,13 @@ body {
     align-items: center; 
   }
 
-  .home-page .home-content div iframe {
+  .home-page .home-conten div iframe {
     width: 350px;
     height: 160px;
     border: none;
   }
 
-  .home-page .home-content div p {
+  .home-page .home-conten div p {
     display: grid;
     width: 350px;
     font-size: 16px;
